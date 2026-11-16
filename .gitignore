@@ -1,0 +1,28 @@
+# Do not commit confidential challenge inputs or address-level outputs
+dataset/
+raw_ps_data/
+*.rar
+*.7z
+*.zip
+*.csv
+*.parquet
+*.xlsx
+*.pkl
+*.pickle
+*.joblib
+surveyed_addresses.csv
+ps3_out/
+stage2_arch5/
+stage2_arch52/
+stage2_confidence20/
+submission_outputs/
+
+# Python and Jupyter runtime files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
