@@ -4,8 +4,6 @@
 
 This project (French Exit, Problem Statement 3) estimates a corrected location for each address, returns an uncertainty radius, and provides conservative directions/evidence labels for field teams. It is designed to operate **without live mapping API queries** when the supplied source data are available.
 
-> **Data notice:** The original challenge dataset is **not** included in this repository. The notebook requires the original dataset to be supplied separately. Review data rights and confidentiality before publishing any input or generated records.
-
 ## Reported results
 
 Five-fold **out-of-fold evaluation on 100 surveyed addresses** (reported in the accompanying [technical report](docs/technical_report.pdf)):
@@ -123,6 +121,3 @@ Python, pandas, NumPy, scikit-learn, Matplotlib, Jupyter; `rapidfuzz` is an opti
 
 Raw address/customer/account information, field trails, device/agent information, survey coordinates, and generated address-level predictions may be confidential. `.gitignore` excludes the expected raw datasets and generated outputs; **always review staged files manually before a public push**. Only publish material you are authorized to share.
 
-## Reproducibility status
-
-The notebook and extracted modules have been **syntax-checked** for packaging. They have **not** been executed against the original dataset in this repository package, so runtime reproduction and third-party dependency compatibility remain to be verified in your environment.
