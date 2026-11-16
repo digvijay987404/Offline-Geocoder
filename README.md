@@ -1,4 +1,4 @@
-# French Exit — Offline Address Geocoding
+# Offline Address Geocoding
 
 **Offline, evidence-aware geocoding of noisy field addresses using address text, historical visits, GPS trajectories, and spatial reference data.**
 
